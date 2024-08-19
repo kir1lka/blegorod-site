@@ -1,0 +1,103 @@
+h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 40px;
+} /*заголовок первого уровня: черный  цвет,  по центру, размер 40px*/
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 27px;
+} /*заголовок второго уровня: черный  цвет,  по центру, размер 40px*/
+
+h3 {
+  color: #000000;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 15px;
+}
+h4 {
+  color: #000000;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 15px;
+}
+h5 {
+  color: #000000;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 15px;
+}
+h6 {
+  color: Black;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 15px;
+}
+
+body {
+  background-color: MediumTurquoise; /*цвет фона*/
+  font-family: Times New Roman; /*шрифт текста Times New Roman*/
+  margin: 0; /*внешний отступ равен нулю*/
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  /*контейнер для блочной верстки страницы*/
+  margin: 0; /*внешний отступ равен нулю*/
+}
+
+li {
+  /*Списки*/
+
+  color: Black; /*цвет текста*/
+  font-weight: normal; /*нежирное начертание текста*/
+  font-size: 23px; /*размер текста*/
+  line-height: 1.5; /*полуторный интервал*/
+}
+
+#content {
+  background-color: MediumTurquoise;
+  float: justify; /*выравнивание по ширине*/
+}
+
+#clear {
+  clear: both;
+}
+
+#footer {
+  background: SteelBlue;
+  height: 100px;
+}
+
+p {
+  color: #000000;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 15px;
+}
+
+img {
+  width: 50%;
+}
+
+.inputValue {
+  width: 250px;
+}

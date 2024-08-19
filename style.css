@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+  height: 450px;
+} /*отцентровка изображений по вертикали относительно своего родителя-*/
+
+h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 40px;
+} /*заголовок первого уровня: черный  цвет,  по центру, размер 40px*/
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+} /*заголовок второго уровня: черный  цвет,  по центру, размер 40px*/
+
+h3 {
+  color: #000000;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 15px;
+}
+h4 {
+  color: #000000;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 15px;
+}
+h5 {
+  color: #000000;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 15px;
+}
+body {
+  background-color: MediumTurquoise; /*цвет фона*/
+  font-family: Times New Roman; /*шрифт текста Times New Roman*/
+  margin: 0; /*внешний отступ равен нулю*/
+}
+
+#container {
+  /*контейнер для блочной верстки страницы*/
+  margin: 0; /*внешний отступ равен нулю*/
+}
+
+#header {
+  /*шапка*/
+
+  height: 430px; /*высота*/
+  /*ширина*/
+}
+
+#navigation {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: SteelBlue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+li {
+  color: Black;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: Black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.active {
+  /*активная ячейка*/
+  background-color: DarkSlateBlue; /*цвет ячейки*/
+  color: white; /*цвет текста*/
+}
+
+li a:hover {
+  /*ячейка, на которую наведен курсор*/
+  background-color: DarkSlateBlue; /*цвет ячейки*/
+  color: white; /*цвет текста*/
+}
+
+li:last-child {
+  border-bottom: none; /*рамка отсутствует*/
+}
+
+#content {
+  /*основное содержание страницы */
+  background-color: MediumTurquoise; /*цвет фона*/
+  float: justify; /*выравнивание по ширине*/
+
+  /*ширина*/
+  margin-bottom: 50px; /*высота*/
+}
+
+#clear {
+  clear: both;
+}
+
+#footer {
+  /*подвал страницы*/
+  background: SteelBlue; /*цвет фона*/
+  height: 100px; /*высота*/
+}
